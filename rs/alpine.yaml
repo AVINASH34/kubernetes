@@ -7,4 +7,4 @@ spec:
   initContainers:
     - name: init-cont1
       image: alpine:3
-      command: ["ping" "-c 4" "google.com"]
+      command: [ping -c 4 google.com]
